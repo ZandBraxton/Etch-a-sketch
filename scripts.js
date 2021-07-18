@@ -2,8 +2,7 @@ const container = document.getElementById('container');
 let r = 16;
 let c = 16;
 const btn = document.querySelector('#reGrid');
-const clear = document.querySelector('#clear')
-const
+const clear = document.querySelector('#clear');
 clear.addEventListener('click', clearGrid)
 btn.addEventListener('click', reGrid);
 makeRows(r, c);
